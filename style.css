@@ -1,3 +1,40 @@
-h1{
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.nav-box{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A0D2B;
+  padding: 10px 200px;
+  
+}
+.nav-box ul{
+  display: flex;
+  
+}
+.nav-box ul li{
+  list-style-type: none;
+  margin: 10px 8px;
+  
+}
+.nav-box ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 10px;
+  transition: .5s;
+}
+.nav-box div{
+  color: white;
+  font-size: 20px;
+}
+.nav-box ul li a:hover{
+  background-color: black;
   color: red;
+  border-radius: 10px;
 }
