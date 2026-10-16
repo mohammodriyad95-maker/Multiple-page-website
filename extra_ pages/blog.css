@@ -1,0 +1,97 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+.nav-box{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A0D2B;
+  padding: 10px 200px;
+  border-bottom: 4px solid #2F1B67;
+  position: sticky;
+  top: 0;
+  
+}
+.nav-box ul{
+  display: flex;
+  
+}
+.nav-box ul li{
+  list-style-type: none;
+  margin: 10px 8px;
+  
+}
+.nav-box ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 10px;
+  transition: .5s;
+}
+.nav-box div{
+  color: white;
+  font-size: 20px;
+}
+.nav-box ul li a:hover{
+  background-color: black;
+  color: red;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+.article-container{
+        width: 1100px;
+        margin: 0px auto;
+}
+.blog-parent{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+        margin-bottom: 100px;
+}
+.single-img-div{
+        height: 400px;
+}
+.single-img-div img{
+        height: 100%;
+        width: 100%;
+}
+.article-title{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        tab-size: 25px;
+        color: #188F27;
+        margin: 60px 0px;
+        
+}
+.article-title span{
+        color: #FF1414;
+}
+.single-blog{
+        box-shadow: 5px 5px 5px 5px gray;
+        border-radius: 4px;
+}
+.single-card-div{
+        padding: 20px 30px;
+}
+.single-card-div span{
+        color: #FF1414;
+        
+}
+.single-card-div h3{
+        margin: 15px 0px;
+        font-size: 23px;
+}
+.single-card-div a{
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+}
