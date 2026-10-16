@@ -1,0 +1,98 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+
+    /*navigation area code start*/
+
+
+.nav-box{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A0D2B;
+  padding: 10px 200px;
+  border-bottom: 4px solid #2F1B67;
+  position: sticky;
+  top: 0;
+  
+}
+.nav-box ul{
+  display: flex;
+  
+}
+.nav-box ul li{
+  list-style-type: none;
+  margin: 10px 8px;
+  
+}
+.nav-box ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 10px;
+  transition: .5s;
+}
+.nav-box div{
+  color: white;
+  font-size: 20px;
+}
+.nav-box ul li a:hover{
+  background-color: black;
+  color: red;
+  border-radius: 10px;
+}
+
+
+/*navigtion area code finished*/
+
+
+form{
+        width: 800px;
+        height: 550px;
+        background-color: lightpink;
+        margin: 80px auto;
+        padding: 40px 0px;
+        box-shadow: 10px 10px 10px 10px gray;
+}
+form h2{
+        text-align: center;
+        margin-bottom: 20px;
+}
+.name-email-parent input{
+        display: block;
+        margin: 10px auto;
+        width: 400px;
+        height: 30px;
+        border-radius: 30px;
+        border: none;
+        padding: 5px 20px;
+        font-size: 18px;
+}
+form textarea{
+        display: block;
+        margin: 30px auto;
+        width: 400px;
+        height: 150px;
+        padding: 10px 20px;
+        border-radius: 25px;
+        border: none;
+        font-size: 18px;
+}
+form input:nth-child(4){
+        display: flex;
+        margin: 60px auto;
+        font-size: 25px;
+        padding: 10px 20px;
+        width: 400px;
+        height: 50px;
+        border: none;
+        border-radius: 35px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background: linear-gradient( to right, #4068CF, #AC42DF, #17D1FC);
+        color: white;
+}
+
+
+
