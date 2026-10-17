@@ -3,6 +3,9 @@
         padding: 0;
 }
 
+                /*navigation area code start*/
+
+
 .nav-box{
   display: flex;
   justify-content: space-between;
@@ -42,7 +45,7 @@
 
 
 
-
+/*navigation area code finished*/
 
 
 
